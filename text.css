@@ -1,0 +1,60 @@
+body{
+    background: rgb(52, 56, 65);
+}
+
+form{
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(53, 74, 88);
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+h2{
+   color: white;
+   font-weight: bold;
+   font-size: 40px;
+   text-align: center;
+   font-family: Arial;
+}
+
+
+input[type=text] , [type=password]{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+
+input[type="checkbox"]{
+     margin: 15px 0 20px 80px;
+}
+
+
+
+
+input[type="checkbox"]::after{
+    content: "remember me";
+    color: white;
+    line-height: 1;
+    position: absolute;
+    left: 560px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 60px;
+    margin-left: 150px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(52, 56, 65);
+    color: white;
+}
